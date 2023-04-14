@@ -20,6 +20,7 @@ body {
 .navbar {
 padding: 20px 0px;
 justify-content: space-around;
+flex: 1;
 }
 
 .logo {
@@ -76,4 +77,32 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     font-family: Roboto;
+}
+
+h2 {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.item {
+    max-width: 176px;
+    text-align: center;
+    font-size: 18px;
+    color: #95979b
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
 }
