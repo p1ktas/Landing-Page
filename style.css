@@ -161,3 +161,11 @@ img {
     font-family: Roboto;
     border: 2px solid white
 }
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color:#F9FAF8
+}
